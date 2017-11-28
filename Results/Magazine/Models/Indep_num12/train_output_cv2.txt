@@ -1,0 +1,780 @@
+I am process 140192.
+Namespace(adaptive_lrs=True, beta=0.01, category='Magazine_Subs', context='train_context', dropout_encoder=0.0, dropout_generator=0.0, enc_num_hidden_layers=1, enc_num_hidden_units=256, evaluate_model=True, flic='../../../Data/Processed_Data/Magazine_Subs/FLIC_model_attdim200_nsteps300.pkl', gen_num_hidden_layers=1, gen_num_hidden_units=256, l2_enc_reg=0, l2_gen_reg=0, learning='adam', learning_rate_encoder=0.001, learning_rate_generator=0.0001, linkdata_neg='../../../Data/Processed_Data/Magazine_Subs/D_C.pkl', linkdata_pos='../../../Data/Processed_Data/Magazine_Subs/D.pkl', load_model='', max_epochs=100, measure_timing=True, model_type='Independent', num_cross_validation=5, num_iters_between_validation=10000, num_samples=10, num_target_sentences=12.0, perc_test_data=0.2, perc_validation_data=0.2, regularizer=0.005, reviews='../../../Data/Processed_Data/Magazine_Subs/reviews_embedded_256.pkl', sample_all_sentences=False, save_model='../../../Data/Processed_Data/Magazine_Subs/Models11/', testset_has_new_products=False, training_output_path='../../../Data/Processed_Data/Magazine_Subs/Output11/')
+We use the following model type: Independent
+We sample 10 sets from the generator in each iteration.
+Using DeepSetLayer 3.
+Constructing computation graph.
+Start training.
+Num links in training set = 13364
+Cost on the training set after 1000 iterations: 0.711043094675
+Cost on the training set after 2000 iterations: 0.707002494088
+Cost on the training set after 3000 iterations: 0.704744954443
+Cost on the training set after 4000 iterations: 0.70390369622
+Cost on the training set after 5000 iterations: 0.700159154025
+Cost on the training set after 6000 iterations: 0.698402772451
+Cost on the training set after 7000 iterations: 0.696360874647
+Cost on the training set after 8000 iterations: 0.691522406072
+Cost on the training set after 9000 iterations: 0.688946279554
+Cost on the training set after 10000 iterations: 0.685869085433
+Model saved. Epoch = 0, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.683186732581
+Cost on the training set after 12000 iterations: 0.680568997555
+Cost on the training set after 13000 iterations: 0.678321907533
+
+Epoch 0 done. Model saved! 
+Time Sampling = 0.036722356279
+Time Generator = 0.000337898071138
+Time Encoder = 0.0403626722799
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.677255962516
+Average probabilities of true links: 0.521343696564
+Average probabilities of false links: 0.47676410018
+Average cost on the validation set: 0.636796655154
+Average probabilities of true links: 0.495328697039
+Average probabilities of false links: 0.387853150812
+
+Cost on the training set after 1000 iterations: 0.628289367223
+Cost on the training set after 2000 iterations: 0.621885081713
+Cost on the training set after 3000 iterations: 0.624362111149
+Cost on the training set after 4000 iterations: 0.62094969344
+Cost on the training set after 5000 iterations: 0.619143594351
+Cost on the training set after 6000 iterations: 0.618690570642
+Cost on the training set after 7000 iterations: 0.618765653189
+Cost on the training set after 8000 iterations: 0.617705237085
+Cost on the training set after 9000 iterations: 0.615335153903
+Cost on the training set after 10000 iterations: 0.614470435125
+Model saved. Epoch = 1, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.61352171195
+Cost on the training set after 12000 iterations: 0.61452267846
+Cost on the training set after 13000 iterations: 0.61364494802
+
+Epoch 1 done. Model saved! 
+Time Sampling = 0.0669848475939
+Time Generator = 0.000699138256006
+Time Encoder = 0.0818806293481
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.613646362667
+Average probabilities of true links: 0.576835889701
+Average probabilities of false links: 0.424317419154
+Average cost on the validation set: 0.587495163539
+Average probabilities of true links: 0.645608500807
+Average probabilities of false links: 0.471310233818
+
+Cost on the training set after 1000 iterations: 0.597169525074
+Cost on the training set after 2000 iterations: 0.588837216398
+Cost on the training set after 3000 iterations: 0.588838078472
+Cost on the training set after 4000 iterations: 0.585992860806
+Cost on the training set after 5000 iterations: 0.587859518621
+Cost on the training set after 6000 iterations: 0.587915123999
+Cost on the training set after 7000 iterations: 0.587193692109
+Cost on the training set after 8000 iterations: 0.584832901473
+Cost on the training set after 9000 iterations: 0.58289893451
+Cost on the training set after 10000 iterations: 0.583174376581
+Model saved. Epoch = 2, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.583383416544
+Cost on the training set after 12000 iterations: 0.580679194687
+Cost on the training set after 13000 iterations: 0.579317220465
+
+Epoch 2 done. Model saved! 
+Time Sampling = 0.0975887456971
+Time Generator = 0.00105902851431
+Time Encoder = 0.123379647036
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.578245853347
+Average probabilities of true links: 0.606170239575
+Average probabilities of false links: 0.39305422373
+Average cost on the validation set: 0.614935070597
+Average probabilities of true links: 0.748519504709
+Average probabilities of false links: 0.548712753072
+
+Cost on the training set after 1000 iterations: 0.564069844794
+Cost on the training set after 2000 iterations: 0.555979231422
+Cost on the training set after 3000 iterations: 0.553976800153
+Cost on the training set after 4000 iterations: 0.562228172087
+Cost on the training set after 5000 iterations: 0.558353396809
+Cost on the training set after 6000 iterations: 0.555818669459
+Cost on the training set after 7000 iterations: 0.555508057809
+Cost on the training set after 8000 iterations: 0.551122958267
+Cost on the training set after 9000 iterations: 0.554276330697
+Cost on the training set after 10000 iterations: 0.554574563089
+Model saved. Epoch = 3, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.555911334866
+Cost on the training set after 12000 iterations: 0.555485352601
+Cost on the training set after 13000 iterations: 0.555706608063
+
+Epoch 3 done. Model saved! 
+Time Sampling = 0.127410630611
+Time Generator = 0.00140078493807
+Time Encoder = 0.163253262385
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.554381288907
+Average probabilities of true links: 0.625430020243
+Average probabilities of false links: 0.375945494858
+Average cost on the validation set: 0.536298888563
+Average probabilities of true links: 0.576127521069
+Average probabilities of false links: 0.308183552566
+
+Cost on the training set after 1000 iterations: 0.552721605232
+Cost on the training set after 2000 iterations: 0.53409522154
+Cost on the training set after 3000 iterations: 0.537435075393
+Cost on the training set after 4000 iterations: 0.538347519905
+Cost on the training set after 5000 iterations: 0.544587025569
+Cost on the training set after 6000 iterations: 0.544424794279
+Cost on the training set after 7000 iterations: 0.54712329894
+Cost on the training set after 8000 iterations: 0.546782439358
+Cost on the training set after 9000 iterations: 0.548597374127
+Cost on the training set after 10000 iterations: 0.547808561906
+Model saved. Epoch = 4, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.548512199778
+Cost on the training set after 12000 iterations: 0.547921590257
+Cost on the training set after 13000 iterations: 0.546266265156
+
+Epoch 4 done. Model saved! 
+Time Sampling = 0.156682551995
+Time Generator = 0.00172322902876
+Time Encoder = 0.200955972722
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.545137079576
+Average probabilities of true links: 0.633211841497
+Average probabilities of false links: 0.366354495542
+Average cost on the validation set: 0.555170606088
+Average probabilities of true links: 0.714900434024
+Average probabilities of false links: 0.454761814066
+
+Cost on the training set after 1000 iterations: 0.516007362801
+Cost on the training set after 2000 iterations: 0.526274665708
+Cost on the training set after 3000 iterations: 0.529363506952
+Cost on the training set after 4000 iterations: 0.523796792243
+Cost on the training set after 5000 iterations: 0.52430912234
+Cost on the training set after 6000 iterations: 0.52410128699
+Cost on the training set after 7000 iterations: 0.524683302167
+Cost on the training set after 8000 iterations: 0.525028836243
+Cost on the training set after 9000 iterations: 0.524292347478
+Cost on the training set after 10000 iterations: 0.526483399834
+Model saved. Epoch = 5, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.524536311614
+Cost on the training set after 12000 iterations: 0.524790610031
+Cost on the training set after 13000 iterations: 0.524054797501
+
+Epoch 5 done. Model saved! 
+Time Sampling = 0.185568129934
+Time Generator = 0.00203797701981
+Time Encoder = 0.23844213976
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.524769495174
+Average probabilities of true links: 0.651478643269
+Average probabilities of false links: 0.347699394839
+Average cost on the validation set: 0.514347621061
+Average probabilities of true links: 0.684820558836
+Average probabilities of false links: 0.387977168085
+
+Cost on the training set after 1000 iterations: 0.528893578674
+Cost on the training set after 2000 iterations: 0.51770889144
+Cost on the training set after 3000 iterations: 0.520414968668
+Cost on the training set after 4000 iterations: 0.518954945109
+Cost on the training set after 5000 iterations: 0.517064718246
+Cost on the training set after 6000 iterations: 0.514497387003
+Cost on the training set after 7000 iterations: 0.514174722443
+Cost on the training set after 8000 iterations: 0.512669187488
+Cost on the training set after 9000 iterations: 0.509077150793
+Cost on the training set after 10000 iterations: 0.509727991266
+Model saved. Epoch = 6, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.51021289998
+Cost on the training set after 12000 iterations: 0.510151838637
+Cost on the training set after 13000 iterations: 0.50963667649
+
+Epoch 6 done. Model saved! 
+Time Sampling = 0.214349839795
+Time Generator = 0.00231782327116
+Time Encoder = 0.272497669643
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.509368031847
+Average probabilities of true links: 0.665208288783
+Average probabilities of false links: 0.334553096383
+Average cost on the validation set: 0.49323812108
+Average probabilities of true links: 0.653564436245
+Average probabilities of false links: 0.30447785734
+
+Cost on the training set after 1000 iterations: 0.490308282561
+Cost on the training set after 2000 iterations: 0.490431203503
+Cost on the training set after 3000 iterations: 0.498512058001
+Cost on the training set after 4000 iterations: 0.506395777798
+Cost on the training set after 5000 iterations: 0.509814986989
+Cost on the training set after 6000 iterations: 0.506169077204
+Cost on the training set after 7000 iterations: 0.504628453211
+Cost on the training set after 8000 iterations: 0.505786174894
+Cost on the training set after 9000 iterations: 0.507424871609
+Cost on the training set after 10000 iterations: 0.506811594954
+Model saved. Epoch = 7, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.503347807393
+Cost on the training set after 12000 iterations: 0.501567348755
+Cost on the training set after 13000 iterations: 0.502418346112
+
+Epoch 7 done. Model saved! 
+Time Sampling = 0.24337244503
+Time Generator = 0.00262317854428
+Time Encoder = 0.308860567757
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.503036695512
+Average probabilities of true links: 0.670495554126
+Average probabilities of false links: 0.328175170985
+Average cost on the validation set: 0.496528292743
+Average probabilities of true links: 0.612933988602
+Average probabilities of false links: 0.282300448506
+
+Cost on the training set after 1000 iterations: 0.48356829876
+Cost on the training set after 2000 iterations: 0.489485293947
+Cost on the training set after 3000 iterations: 0.483983699039
+Cost on the training set after 4000 iterations: 0.480488918455
+Cost on the training set after 5000 iterations: 0.489574589219
+Cost on the training set after 6000 iterations: 0.488907067478
+Cost on the training set after 7000 iterations: 0.487501977052
+Cost on the training set after 8000 iterations: 0.490099869191
+Cost on the training set after 9000 iterations: 0.489945697896
+Cost on the training set after 10000 iterations: 0.487090821287
+Model saved. Epoch = 8, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.487762634362
+Cost on the training set after 12000 iterations: 0.488328637259
+Cost on the training set after 13000 iterations: 0.490697299784
+
+Epoch 8 done. Model saved! 
+Time Sampling = 0.271849060747
+Time Generator = 0.00292435565847
+Time Encoder = 0.345458305496
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.491802372366
+Average probabilities of true links: 0.680034807484
+Average probabilities of false links: 0.319996960314
+Average cost on the validation set: 0.5042443703
+Average probabilities of true links: 0.617989873332
+Average probabilities of false links: 0.295884135814
+Learning rate(s) adapted.
+Learning rate 1 = 0.00025
+Learning rate 2 = 0.00025
+Loading trained model from file.
+Best model loaded.
+
+Cost on the training set after 1000 iterations: 0.47195540085
+Cost on the training set after 2000 iterations: 0.479683506071
+Cost on the training set after 3000 iterations: 0.470442603231
+Cost on the training set after 4000 iterations: 0.467402024372
+Cost on the training set after 5000 iterations: 0.471473278624
+Cost on the training set after 6000 iterations: 0.473008678191
+Cost on the training set after 7000 iterations: 0.472264333982
+Cost on the training set after 8000 iterations: 0.472808505807
+Cost on the training set after 9000 iterations: 0.469775001135
+Cost on the training set after 10000 iterations: 0.469497147603
+Model saved. Epoch = 9, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.471547059807
+Cost on the training set after 12000 iterations: 0.469312768767
+Cost on the training set after 13000 iterations: 0.470763376273
+
+Epoch 9 done. Model saved! 
+Time Sampling = 0.300179981893
+Time Generator = 0.0032308149823
+Time Encoder = 0.382115341328
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.470800606725
+Average probabilities of true links: 0.688157236227
+Average probabilities of false links: 0.311436829046
+Average cost on the validation set: 0.489821029254
+Average probabilities of true links: 0.72687779436
+Average probabilities of false links: 0.369107238201
+
+We sample 10 sets from the generator in each iteration.
+Using DeepSetLayer 3.
+Constructing computation graph.
+Loading trained model from file.
+Start training.
+Num links in training set = 13364
+Cost on the training set after 1000 iterations: 0.450657060407
+Cost on the training set after 2000 iterations: 0.453804714951
+Cost on the training set after 3000 iterations: 0.458803982661
+Cost on the training set after 4000 iterations: 0.464955279869
+Cost on the training set after 5000 iterations: 0.461743466695
+Cost on the training set after 6000 iterations: 0.457731669989
+Cost on the training set after 7000 iterations: 0.461765732467
+Cost on the training set after 8000 iterations: 0.456367088907
+Cost on the training set after 9000 iterations: 0.45753489929
+Cost on the training set after 10000 iterations: 0.456708456719
+Model saved. Epoch = 10, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.459937992823
+Cost on the training set after 12000 iterations: 0.458798740069
+Cost on the training set after 13000 iterations: 0.458997185971
+
+Epoch 10 done. Model saved! 
+Time Sampling = 0.0320270709276
+Time Generator = 0.000262949806386
+Time Encoder = 0.0349519375876
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.458484176931
+Average probabilities of true links: 0.698405011929
+Average probabilities of false links: 0.301982278809
+Average cost on the validation set: 0.478359796027
+Average probabilities of true links: 0.646544011942
+Average probabilities of false links: 0.262705460529
+
+Cost on the training set after 1000 iterations: 0.437940249692
+Cost on the training set after 2000 iterations: 0.444268858441
+Cost on the training set after 3000 iterations: 0.456581276868
+Cost on the training set after 4000 iterations: 0.451881549709
+Cost on the training set after 5000 iterations: 0.44708960098
+Cost on the training set after 6000 iterations: 0.446231801981
+Cost on the training set after 7000 iterations: 0.445563463888
+Cost on the training set after 8000 iterations: 0.448423270525
+Cost on the training set after 9000 iterations: 0.452001734378
+Cost on the training set after 10000 iterations: 0.451713050615
+Model saved. Epoch = 11, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.454082602715
+Cost on the training set after 12000 iterations: 0.453422049409
+Cost on the training set after 13000 iterations: 0.455772759401
+
+Epoch 11 done. Model saved! 
+Time Sampling = 0.0633523120776
+Time Generator = 0.000549914379457
+Time Encoder = 0.0718284674977
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.455628968138
+Average probabilities of true links: 0.700562086475
+Average probabilities of false links: 0.298999544955
+Average cost on the validation set: 0.489714946193
+Average probabilities of true links: 0.760734073223
+Average probabilities of false links: 0.386973977663
+
+Cost on the training set after 1000 iterations: 0.47944340456
+Cost on the training set after 2000 iterations: 0.472433870825
+Cost on the training set after 3000 iterations: 0.454570859488
+Cost on the training set after 4000 iterations: 0.454560743176
+Cost on the training set after 5000 iterations: 0.455275002643
+Cost on the training set after 6000 iterations: 0.452707584017
+Cost on the training set after 7000 iterations: 0.453098246656
+Cost on the training set after 8000 iterations: 0.454777787633
+Cost on the training set after 9000 iterations: 0.451890239235
+Cost on the training set after 10000 iterations: 0.453897521199
+Model saved. Epoch = 12, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.452888940258
+Cost on the training set after 12000 iterations: 0.453411941437
+Cost on the training set after 13000 iterations: 0.454033993517
+
+Epoch 12 done. Model saved! 
+Time Sampling = 0.0938780590539
+Time Generator = 0.000813356793879
+Time Encoder = 0.106470961658
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.454151071384
+Average probabilities of true links: 0.702124298702
+Average probabilities of false links: 0.297668786015
+Average cost on the validation set: 0.471434729372
+Average probabilities of true links: 0.710939298789
+Average probabilities of false links: 0.329721482157
+
+Cost on the training set after 1000 iterations: 0.426593250464
+Cost on the training set after 2000 iterations: 0.4355434241
+Cost on the training set after 3000 iterations: 0.448237892534
+Cost on the training set after 4000 iterations: 0.446071728345
+Cost on the training set after 5000 iterations: 0.448680451398
+Cost on the training set after 6000 iterations: 0.445577760232
+Cost on the training set after 7000 iterations: 0.450210564056
+Cost on the training set after 8000 iterations: 0.449600534342
+Cost on the training set after 9000 iterations: 0.449715656426
+Cost on the training set after 10000 iterations: 0.450209510823
+Model saved. Epoch = 13, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.449979099227
+Cost on the training set after 12000 iterations: 0.447913522802
+Cost on the training set after 13000 iterations: 0.449266535675
+
+Epoch 13 done. Model saved! 
+Time Sampling = 0.123936990142
+Time Generator = 0.00110105062737
+Time Encoder = 0.142673887506
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.449458047925
+Average probabilities of true links: 0.706189555139
+Average probabilities of false links: 0.294408292638
+Average cost on the validation set: 0.475545463623
+Average probabilities of true links: 0.749362506629
+Average probabilities of false links: 0.366981975023
+
+Cost on the training set after 1000 iterations: 0.434063937446
+Cost on the training set after 2000 iterations: 0.439147640757
+Cost on the training set after 3000 iterations: 0.45138740563
+Cost on the training set after 4000 iterations: 0.447430398029
+Cost on the training set after 5000 iterations: 0.448114288559
+Cost on the training set after 6000 iterations: 0.449202919846
+Cost on the training set after 7000 iterations: 0.447333746369
+Cost on the training set after 8000 iterations: 0.447290578817
+Cost on the training set after 9000 iterations: 0.445212116688
+Cost on the training set after 10000 iterations: 0.44303762256
+Model saved. Epoch = 14, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.440537857011
+Cost on the training set after 12000 iterations: 0.439960344115
+Cost on the training set after 13000 iterations: 0.439836022183
+
+Epoch 14 done. Model saved! 
+Time Sampling = 0.153712464018
+Time Generator = 0.00137708972793
+Time Encoder = 0.17952138355
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.440471996641
+Average probabilities of true links: 0.711271701558
+Average probabilities of false links: 0.288104735597
+Average cost on the validation set: 0.491970585131
+Average probabilities of true links: 0.790939822183
+Average probabilities of false links: 0.413679422908
+Learning rate(s) adapted.
+Learning rate 1 = 6.25e-05
+Learning rate 2 = 6.25e-05
+Loading trained model from file.
+Best model loaded.
+
+Cost on the training set after 1000 iterations: 0.411730902464
+Cost on the training set after 2000 iterations: 0.438370910851
+Cost on the training set after 3000 iterations: 0.438046520761
+Cost on the training set after 4000 iterations: 0.43855334194
+Cost on the training set after 5000 iterations: 0.438389953661
+Cost on the training set after 6000 iterations: 0.442973313274
+Cost on the training set after 7000 iterations: 0.441764546705
+Cost on the training set after 8000 iterations: 0.44102285362
+Cost on the training set after 9000 iterations: 0.442825816973
+Cost on the training set after 10000 iterations: 0.443941457985
+Model saved. Epoch = 15, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.442594400785
+Cost on the training set after 12000 iterations: 0.44031850652
+Cost on the training set after 13000 iterations: 0.440826186398
+
+Epoch 15 done. Model saved! 
+Time Sampling = 0.183878631747
+Time Generator = 0.00166133833802
+Time Encoder = 0.214479969098
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.441919758885
+Average probabilities of true links: 0.70913235107
+Average probabilities of false links: 0.292716086597
+Average cost on the validation set: 0.464853487905
+Average probabilities of true links: 0.692653360059
+Average probabilities of false links: 0.30232463786
+
+Cost on the training set after 1000 iterations: 0.426394424245
+Cost on the training set after 2000 iterations: 0.426778673723
+Cost on the training set after 3000 iterations: 0.433193756293
+Cost on the training set after 4000 iterations: 0.434926478714
+Cost on the training set after 5000 iterations: 0.440566714583
+Cost on the training set after 6000 iterations: 0.443256384008
+Cost on the training set after 7000 iterations: 0.440645725821
+Cost on the training set after 8000 iterations: 0.438998937523
+Cost on the training set after 9000 iterations: 0.438221078522
+Cost on the training set after 10000 iterations: 0.43987793587
+Model saved. Epoch = 16, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.437717967938
+Cost on the training set after 12000 iterations: 0.438235605199
+Cost on the training set after 13000 iterations: 0.439748957046
+
+Epoch 16 done. Model saved! 
+Time Sampling = 0.213828297244
+Time Generator = 0.00194534790512
+Time Encoder = 0.250571600908
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.439229768275
+Average probabilities of true links: 0.710718158094
+Average probabilities of false links: 0.289691492674
+Average cost on the validation set: 0.464637413529
+Average probabilities of true links: 0.702532918154
+Average probabilities of false links: 0.303446340752
+
+Cost on the training set after 1000 iterations: 0.436499305586
+Cost on the training set after 2000 iterations: 0.441140535326
+Cost on the training set after 3000 iterations: 0.438340604025
+Cost on the training set after 4000 iterations: 0.43952511411
+Cost on the training set after 5000 iterations: 0.436009790693
+Cost on the training set after 6000 iterations: 0.435313315391
+Cost on the training set after 7000 iterations: 0.436100526926
+Cost on the training set after 8000 iterations: 0.432467201416
+Cost on the training set after 9000 iterations: 0.434370267311
+Cost on the training set after 10000 iterations: 0.435778883102
+Model saved. Epoch = 17, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.43567450472
+Cost on the training set after 12000 iterations: 0.435248414363
+Cost on the training set after 13000 iterations: 0.436503839757
+
+Epoch 17 done. Model saved! 
+Time Sampling = 0.24381047712
+Time Generator = 0.00222841216504
+Time Encoder = 0.287023001322
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.436904236279
+Average probabilities of true links: 0.711639622347
+Average probabilities of false links: 0.288546054785
+Average cost on the validation set: 0.458552413109
+Average probabilities of true links: 0.713904838388
+Average probabilities of false links: 0.31242471937
+
+Cost on the training set after 1000 iterations: 0.445654056976
+Cost on the training set after 2000 iterations: 0.443224515424
+Cost on the training set after 3000 iterations: 0.437640060827
+Cost on the training set after 4000 iterations: 0.435692959927
+Cost on the training set after 5000 iterations: 0.432402289445
+Cost on the training set after 6000 iterations: 0.435562121066
+Cost on the training set after 7000 iterations: 0.436060509021
+Cost on the training set after 8000 iterations: 0.436123052278
+Cost on the training set after 9000 iterations: 0.435751788213
+Cost on the training set after 10000 iterations: 0.435590587829
+Model saved. Epoch = 18, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.435770909368
+Cost on the training set after 12000 iterations: 0.436225581182
+Cost on the training set after 13000 iterations: 0.436135030119
+
+Epoch 18 done. Model saved! 
+Time Sampling = 0.273550572027
+Time Generator = 0.00251173373647
+Time Encoder = 0.322833779757
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.436193321575
+Average probabilities of true links: 0.713079728132
+Average probabilities of false links: 0.288220153947
+Average cost on the validation set: 0.463905119926
+Average probabilities of true links: 0.671042158867
+Average probabilities of false links: 0.265100880685
+
+Cost on the training set after 1000 iterations: 0.44982102732
+Cost on the training set after 2000 iterations: 0.438042733307
+Cost on the training set after 3000 iterations: 0.436241811177
+Cost on the training set after 4000 iterations: 0.43313496573
+Cost on the training set after 5000 iterations: 0.435529420605
+Cost on the training set after 6000 iterations: 0.438349866499
+Cost on the training set after 7000 iterations: 0.438822784017
+Cost on the training set after 8000 iterations: 0.438485951344
+Cost on the training set after 9000 iterations: 0.435741140409
+Cost on the training set after 10000 iterations: 0.437231858686
+Model saved. Epoch = 19, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.43457754605
+Cost on the training set after 12000 iterations: 0.432968138966
+Cost on the training set after 13000 iterations: 0.433903429481
+
+Epoch 19 done. Model saved! 
+Time Sampling = 0.303227753723
+Time Generator = 0.00279309445604
+Time Encoder = 0.358044358739
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.434670037221
+Average probabilities of true links: 0.713018112644
+Average probabilities of false links: 0.286134664441
+Average cost on the validation set: 0.458300322828
+Average probabilities of true links: 0.703028400623
+Average probabilities of false links: 0.297331948491
+
+We sample 10 sets from the generator in each iteration.
+Using DeepSetLayer 3.
+Constructing computation graph.
+Loading trained model from file.
+Start training.
+Num links in training set = 13364
+Cost on the training set after 1000 iterations: 0.428023900361
+Cost on the training set after 2000 iterations: 0.431748580165
+Cost on the training set after 3000 iterations: 0.434803727884
+Cost on the training set after 4000 iterations: 0.437780102708
+Cost on the training set after 5000 iterations: 0.433737824753
+Cost on the training set after 6000 iterations: 0.430083309315
+Cost on the training set after 7000 iterations: 0.434021440306
+Cost on the training set after 8000 iterations: 0.429303837617
+Cost on the training set after 9000 iterations: 0.429774504782
+Cost on the training set after 10000 iterations: 0.429865341234
+Model saved. Epoch = 20, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.433305038646
+Cost on the training set after 12000 iterations: 0.431781401028
+Cost on the training set after 13000 iterations: 0.432022040031
+
+Epoch 20 done. Model saved! 
+Time Sampling = 0.0302386700269
+Time Generator = 0.000257172740815
+Time Encoder = 0.0350441007656
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.431770056983
+Average probabilities of true links: 0.716335215631
+Average probabilities of false links: 0.284256758136
+Average cost on the validation set: 0.458046883144
+Average probabilities of true links: 0.67441188441
+Average probabilities of false links: 0.266582085683
+
+Cost on the training set after 1000 iterations: 0.424841642387
+Cost on the training set after 2000 iterations: 0.453405467826
+Cost on the training set after 3000 iterations: 0.446480864128
+Cost on the training set after 4000 iterations: 0.440197075793
+Cost on the training set after 5000 iterations: 0.439377898688
+Cost on the training set after 6000 iterations: 0.437688267328
+Cost on the training set after 7000 iterations: 0.439407040925
+Cost on the training set after 8000 iterations: 0.437332290264
+Cost on the training set after 9000 iterations: 0.435182708035
+Cost on the training set after 10000 iterations: 0.434164185339
+Model saved. Epoch = 21, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.433921374387
+Cost on the training set after 12000 iterations: 0.432365219835
+Cost on the training set after 13000 iterations: 0.428625776581
+
+Epoch 21 done. Model saved! 
+Time Sampling = 0.0604264572936
+Time Generator = 0.000543135417075
+Time Encoder = 0.0709768671969
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.429491102923
+Average probabilities of true links: 0.717567628288
+Average probabilities of false links: 0.282266514375
+Average cost on the validation set: 0.454661019128
+Average probabilities of true links: 0.67833440125
+Average probabilities of false links: 0.264782942728
+
+Cost on the training set after 1000 iterations: 0.42056775789
+Cost on the training set after 2000 iterations: 0.441093231222
+Cost on the training set after 3000 iterations: 0.437500054471
+Cost on the training set after 4000 iterations: 0.436957132992
+Cost on the training set after 5000 iterations: 0.43683976463
+Cost on the training set after 6000 iterations: 0.43748418625
+Cost on the training set after 7000 iterations: 0.432763445018
+Cost on the training set after 8000 iterations: 0.430458034416
+Cost on the training set after 9000 iterations: 0.428250102687
+Cost on the training set after 10000 iterations: 0.429384238689
+Model saved. Epoch = 22, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.427645136739
+Cost on the training set after 12000 iterations: 0.429225808908
+Cost on the training set after 13000 iterations: 0.430665893877
+
+Epoch 22 done. Model saved! 
+Time Sampling = 0.0905095294577
+Time Generator = 0.000844977138214
+Time Encoder = 0.106107978737
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.428886432166
+Average probabilities of true links: 0.718160548361
+Average probabilities of false links: 0.281876834152
+Average cost on the validation set: 0.457568732159
+Average probabilities of true links: 0.691414255341
+Average probabilities of false links: 0.276245789603
+
+Cost on the training set after 1000 iterations: 0.419071318778
+Cost on the training set after 2000 iterations: 0.42334226945
+Cost on the training set after 3000 iterations: 0.419122776799
+Cost on the training set after 4000 iterations: 0.417633967822
+Cost on the training set after 5000 iterations: 0.418801767177
+Cost on the training set after 6000 iterations: 0.424597783447
+Cost on the training set after 7000 iterations: 0.428351527433
+Cost on the training set after 8000 iterations: 0.426765479256
+Cost on the training set after 9000 iterations: 0.429854614463
+Cost on the training set after 10000 iterations: 0.426531729756
+Model saved. Epoch = 23, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.425745783614
+Cost on the training set after 12000 iterations: 0.42701385398
+Cost on the training set after 13000 iterations: 0.428740565314
+
+Epoch 23 done. Model saved! 
+Time Sampling = 0.120687432451
+Time Generator = 0.00115043188918
+Time Encoder = 0.14159203746
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.427536053513
+Average probabilities of true links: 0.719298616857
+Average probabilities of false links: 0.280992483181
+Average cost on the validation set: 0.457649183024
+Average probabilities of true links: 0.681133638843
+Average probabilities of false links: 0.269500939253
+Learning rate(s) adapted.
+Learning rate 1 = 1.5625e-05
+Learning rate 2 = 1.5625e-05
+Loading trained model from file.
+Best model loaded.
+
+Cost on the training set after 1000 iterations: 0.435827596308
+Cost on the training set after 2000 iterations: 0.431217289576
+Cost on the training set after 3000 iterations: 0.422043921069
+Cost on the training set after 4000 iterations: 0.42185090752
+Cost on the training set after 5000 iterations: 0.429233466502
+Cost on the training set after 6000 iterations: 0.431700024454
+Cost on the training set after 7000 iterations: 0.428804205212
+Cost on the training set after 8000 iterations: 0.430304892984
+Cost on the training set after 9000 iterations: 0.428133845872
+Cost on the training set after 10000 iterations: 0.429121895111
+Model saved. Epoch = 24, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.428204000936
+Cost on the training set after 12000 iterations: 0.427281500766
+Cost on the training set after 13000 iterations: 0.427127516126
+
+Epoch 24 done. Model saved! 
+Time Sampling = 0.151038451721
+Time Generator = 0.0014563066736
+Time Encoder = 0.175377627131
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.426872456699
+Average probabilities of true links: 0.718144778456
+Average probabilities of false links: 0.279360513665
+Average cost on the validation set: 0.450921836285
+Average probabilities of true links: 0.722227746754
+Average probabilities of false links: 0.304144942546
+
+Cost on the training set after 1000 iterations: 0.425878942142
+Cost on the training set after 2000 iterations: 0.421782121463
+Cost on the training set after 3000 iterations: 0.418853069907
+Cost on the training set after 4000 iterations: 0.415857510334
+Cost on the training set after 5000 iterations: 0.41646732498
+Cost on the training set after 6000 iterations: 0.417760483038
+Cost on the training set after 7000 iterations: 0.415751491422
+Cost on the training set after 8000 iterations: 0.417833959416
+Cost on the training set after 9000 iterations: 0.422846374494
+Cost on the training set after 10000 iterations: 0.422538182998
+Model saved. Epoch = 25, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.423182405894
+Cost on the training set after 12000 iterations: 0.422801476222
+Cost on the training set after 13000 iterations: 0.424437995966
+
+Epoch 25 done. Model saved! 
+Time Sampling = 0.181246520534
+Time Generator = 0.00175835577109
+Time Encoder = 0.208184336571
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.425302803813
+Average probabilities of true links: 0.720878545542
+Average probabilities of false links: 0.280140855333
+Average cost on the validation set: 0.451320736065
+Average probabilities of true links: 0.708710694657
+Average probabilities of false links: 0.293088544142
+
+Cost on the training set after 1000 iterations: 0.415272412533
+Cost on the training set after 2000 iterations: 0.413605888639
+Cost on the training set after 3000 iterations: 0.427411355744
+Cost on the training set after 4000 iterations: 0.426750223496
+Cost on the training set after 5000 iterations: 0.426487161515
+Cost on the training set after 6000 iterations: 0.425271133169
+Cost on the training set after 7000 iterations: 0.428926140231
+Cost on the training set after 8000 iterations: 0.426396573622
+Cost on the training set after 9000 iterations: 0.425929872882
+Cost on the training set after 10000 iterations: 0.423467089701
+Model saved. Epoch = 26, Iteration = 10000
+Cost on the training set after 11000 iterations: 0.424613049357
+Cost on the training set after 12000 iterations: 0.423274335043
+Cost on the training set after 13000 iterations: 0.424678484732
+
+Epoch 26 done. Model saved! 
+Time Sampling = 0.211193194863
+Time Generator = 0.00205652227091
+Time Encoder = 0.240902851046
+Calculating the average cost in this epoch.
+Average cost on the training set: 0.425330932997
+Average probabilities of true links: 0.719568044738
+Average probabilities of false links: 0.279576764213
+Average cost on the validation set: 0.455351335114
+Average probabilities of true links: 0.720786188191
+Average probabilities of false links: 0.309289927221
+Learning rate(s) adapted.
+Learning rate 1 = 3.90625e-06
+Learning rate 2 = 3.90625e-06
+Loading trained model from file.
+Best model loaded.
+best_val_error = 0.450921836285
+We sample 10 sets from the generator in each iteration.
+Using DeepSetLayer 3.
+Constructing computation graph.
+Loading trained model from file.
+Evaluating model...
+Average sample size on the training set = 10.7835453457
+Standard deviation on the training set = 5.59379735183
+Average sample size on the validation set = 10.8001796407
+Standard deviation on the validation set = 5.71885315469
+Average sample size on the test set = 10.8065868263
+Standard deviation on the validation set = 5.78909399719
